@@ -2,39 +2,38 @@
   <head>
     <link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/sky.css">
-
+    <link rel="stylesheet" href="css/custom.css">
     <title>Deep Water</title>
   </head>
   <body>
     <div class="reveal">
 			<div class="slides">
         <section>
-          <section data-transition="slide">
+          <section data-background="img/saltlakecity-day.png" class="back">
             <h2>Deep Water</h2>
             <h3>World Wide Water Cartographers</h3>
           </section>
-
         </section>
-				<section data-transition="slide">
-          <section data-transition="slide">
-            <h2>Who are you?</h2>
+				<section>
+          <section>
+            <h2>Who are we?</h2>
             <ul>
-              <li>We want to solve the worlds water problems by helping people find the water around them</li>
-              <li>We are a team of designers, finance consultants, and coders</li>
+              <li>Solve the worlds water problems by helping people find the water around them</li>
+              <li>A team of designers, finance consultants, and coders</li>
               <li>Vision to create a for purpose foundation (Non profit foundation)</li>
             </ul>
           </section>
-          <section data-transition="slide">
+          <section>
             <p>We want to solve the world’s water problem by helping people such as farmers, refugees in water depleted areas  to find water around them.</p>
           </section>
-          <section data-transition="slide">
-            <p>We are a team of coders, designers, finance consultants with a vision to create a “For Purpose foundation” (Non Profit Foundation) that uses open source NASA  data to allow people to find water around them no matter who or where they are.</p>
+          <section>
+            <p>We are a team of coders, designers, finance consultants with a vision to create a “For Purpose foundation” (Non Profit Foundation) that uses open source NASA data to allow people to find water around them no matter who or where they are.</p>
           </section>
-          <section data-transition="slide">
-            <p>Our vision is to solve first world and third world water problems. By using our app  we allow a refugee to go to a location which would allow them to dig for water near their camp. The app using the DATA from NASA would make this easy to use and accessible. And we could help a farmer in either the developed world or developing world with the same issue</p>
+          <section>
+            <p>Our vision is to solve first world and third world water problems. By using our app we allow a refugee to go to a location which would allow them to dig for water near their camp. The app using the DATA from NASA would make this easy to use and accessible. And we could help a farmer in either the developed world or developing world with the same issue</p>
           </section>
         </section>
-        <section data-transition="slide">
+        <section>
           <h2>Why is it important</h2>
           <ul>
             <li>85% of the world population lives in the driest half of the planet.</li>
@@ -42,11 +41,46 @@
             <li>Almost 2.5 billion do not have access to adequate sanitation</li>
           </ul>
         </section>
+        <section>
+          <section>
+            <h2>How does it work</h2>
+            <p>Data cube and AI challange</p>
+            <p>Tested Our Hypothosis</p>
+            <div style="align:left"><img src="img/data-cube.png"></div>
+          </section>
+          <section>
+            <h2>Data cube?</h2>
+            <p>Multi dimentional table of data</p>
+            <p>2 Spatial dimentions, Time, data sources</p>
+            <p>A really big job but we have a plan</p>
+          </section>
+          <section data-background="img/cali-NorthofLA-ndvi.png"  class="back">
+            <h2>What we tested</h2>
+            <p>Does the surface temprature change with sub surface water?</p>
+            <p>Short version: Nope</p>
+            <ul>
+              <li>Difficult to detect a few feet in the ground</li>
+              <li>Resolution too low. 1km Squares</li>
+              <li>Sparse existing water monitoring points</li>
+              <li>Monitoring points are also not corolated with plant growth</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>The App</h2>
+            <p>Something needs to go here?</p>
+          </section>
+        </section>
       </div>
     </div>
     <script src="js/reveal.js"></script>
 		<script>
-			Reveal.initialize();
+			Reveal.initialize({
+        controls: true,
+        center: true,
+        transition: 'slide'
+      });
 		</script>
   </body>
 </html>
