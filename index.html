@@ -4,38 +4,34 @@
 		<link rel="stylesheet" href="css/theme/sky.css">
     <link rel="stylesheet" href="css/custom.css">
     <title>Deep Water</title>
+
+    <script>
+    	var link = document.createElement( 'link' );
+    	link.rel = 'stylesheet';
+    	link.type = 'text/css';
+    	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    	document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
   </head>
   <body>
     <div class="reveal">
 			<div class="slides">
-        <section>
+        <!--<section>
           <section data-background="img/saltlakecity-day.png" class="back">
             <h2>Deep Water</h2>
             <h3>World Wide Water Cartographers</h3>
           </section>
+        </section>-->
+        <section data-background-video="img/Slideshow_Video_Project_nasa_1080p.mp4">
+          <p></p>
         </section>
 				<section>
           <section>
             <h2>Who are we?</h2>
             <p>A team of designers, finance consultants, and coders</p>
-            <p>We want to find hidden water sources using nasa data and AI/ML</p>
+            <p>We want to find hidden water sources using NASA data and AI/ML</p>
             <p>Vision to create a for purpose foundation (Non profit foundation)</p>
-          </section>
-          <section>
-            <p>We want to solve the world’s water problem by helping people such
-              as farmers, refugees in water depleted areas  to find water around them.</p>
-            <p>We are a team of coders, designers, finance consultants with a
-              vision to create a “For Purpose foundation” (Non Profit Foundation)
-              that uses open source NASA data to allow people to find water
-              around them no matter who or where they are.</p>
-          </section>
-          <section>
-            <p>Our vision is to solve first world and third world water problems.
-              By using our app we allow a refugee to go to a location which
-              would allow them to dig for water near their camp. The app using
-              the DATA from NASA would make this easy to use and accessible.
-              We could help a farmer in either the developed world or developing
-              world with the same issue</p>
           </section>
         </section>
         <section>
@@ -78,9 +74,6 @@
             </ul>
             <p>Maybe when combined with other sources in the cube</p>
           </section>
-          <section data-background="img/saltlakecity-day.png"  class="back">
-            <p></p>
-          </section>
           <section data-background="img/cali-NorthofLA-ndvi.png"  class="back">
             <p>Does the plant growth change with sub surface water?</p>
             <p>Short version: Can't tell</p>
@@ -89,9 +82,6 @@
               <li>Too low resolution</li>
               <li>Differentiate from irrigation and rain</li>
             </ul>
-          </section>
-          <section data-background="img/cali-NorthofLA-ndvi.png"  class="back">
-            <p></p>
           </section>
         </section>
         <section>
