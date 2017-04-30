@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="data-cube.svg">
+   sodipodi:docname="data-cube.svg"
+   inkscape:export-filename="/home/wselwood/us-watermonitoringpoints/presentation/img/data-cube.png"
+   inkscape:export-xdpi="31.2458"
+   inkscape:export-ydpi="31.2458">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="83.571429"
+     inkscape:cx="-57.857143"
      inkscape:cy="520"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
