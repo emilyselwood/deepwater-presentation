@@ -4,3 +4,11 @@
 .reveal section.back li {
   color: #FFFFFF
 }
+
+.reveal section.back-with-white h2 {
+  color: #FFFFFF
+}
+
+.reveal section.back-with-white p {
+  color: #000000
+}
